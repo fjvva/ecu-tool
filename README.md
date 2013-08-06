@@ -7,4 +7,6 @@ Github repo for the tool presented at Blackhat Arsenal USA and Defcon 21 in Las 
 
 The code for the portable version will be released when a few bugs are corrected, but it shouldnt take long ;)
 
+I will be adding info to the wiki soon aswell!
+
 Feel free to email me with code requests (at your own risk!)
