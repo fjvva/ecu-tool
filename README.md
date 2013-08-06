@@ -9,4 +9,9 @@ The code for the portable version will be released when a few bugs are corrected
 
 I will be adding info to the wiki soon aswell!
 
-Feel free to email me with code requests (at your own risk!)
+
+Oh, and i guess you will want be building the hardware interface from the schematics, there is something pretty cool coming for it soon, so dont say i didnt warn you! ;)
+
+
+
+Feel free to email me for beta code requests (at your own risk!)
