@@ -7,14 +7,14 @@ Github repo for the tool presented at Blackhat Arsenal USA and Defcon 21 in Las 
 
 The code for the portable version will be released when a few bugs are corrected, but it shouldnt take long ;)
 
-I will be adding info to the wiki soon aswell!
+We will be adding info to the wiki soon aswell!
 
 
-Oh, and i guess you will want be building the hardware interface from the schematics, there is something pretty cool coming for it soon, so dont say i didnt warn you! ;)
+Oh, and we guess you will want be building the hardware interface from the schematics, there is something pretty cool coming for it soon, so dont say i didnt warn you! ;)
 
 
 
-Feel free to email or tweet me for beta code requests (at your own risk!)
+Feel free to email or tweet us for beta code requests (at your own risk!)
 
 
 javier.vazquez.vidal@gmail.com           @fjvva           Francisco Javier Vázquez Vidal
