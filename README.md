@@ -17,6 +17,6 @@ Oh, and i guess you will want be building the hardware interface from the schema
 Feel free to email or tweet me for beta code requests (at your own risk!)
 
 
-javier.vazquez.vidal@gmail.com           @fjvva 
+javier.vazquez.vidal@gmail.com           @fjvva           Francisco Javier Vázquez Vidal
 
-agarciaillera@gmail.com                  @algillera 
+agarciaillera@gmail.com                  @algillera       Alberto García Illera
