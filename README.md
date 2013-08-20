@@ -9,6 +9,11 @@ The code for the portable version will be released when a few bugs are corrected
 
 We will be adding info to the wiki soon aswell!
 
+****IMPORTANT****:
+It is very recommended that you stick to the MC33290 level shifter as per the easy schematics, as we are having issues while programming the mini pro with the SI9241. Use of any other level shifter is discouraged until further notice.
+
+
+
 
 Oh, and we guess you will want be building the hardware interface from the schematics, there is something pretty cool coming for it soon, so dont say i didnt warn you! ;)
 
