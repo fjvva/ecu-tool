@@ -1020,7 +1020,15 @@ void ProcessKey()
   {
   iso_write_byte(SDbuffer[a]);
   }
-  iso_readstring(4);
+  boolean check=iso_readstring(4);
+  if (!check)
+  {
+    lcd.clear();
+    lcd.setCursor(0,0);
+    flp("Seed auth failed!");
+    delay(3000);
+    software_Reset();
+  }
   flp("Done");
 }
   
@@ -1580,7 +1588,7 @@ String IndexSearch(byte k, char filename[])
 
 //******************Read and send strings of data************//
 
-void iso_readstring(long leng)
+boolean iso_readstring(long leng)
 {
   word tmpc = 0;
   byte ff;
@@ -1610,7 +1618,10 @@ void iso_readstring(long leng)
       ff=pgm_read_byte(&EDC15VM_ECUBytes[w]);
     } 
   
-  CheckRec(ff);
+  if (!CheckRec(ff))
+  {
+    return 0;
+  }
   SDbuffer[tmpc]=ff;
   w++;
   tmpc++;
@@ -1620,6 +1631,7 @@ void iso_readstring(long leng)
   iscrc=1;
   CheckRec(SDbuffer[tmpc]);
   iscrc=0;
+  return 1;
 }
 
 void iso_sendstring(word leng)//Sends a string stored in flash
@@ -1721,7 +1733,7 @@ boolean CheckRec(byte p)
       }
       if (b!=0)
       {
-       lcd.clear();
+       /*lcd.clear();
       lcd.setCursor(0,0);
       flp("Wrong response...");
       lcd.setCursor(0,1);
@@ -1731,7 +1743,8 @@ boolean CheckRec(byte p)
       flp("Got ");
       lcd.print(b,HEX);
       delay(5000);
-      software_Reset();
+      software_Reset();*/
+      return 0;
       }
    }
   return true;
