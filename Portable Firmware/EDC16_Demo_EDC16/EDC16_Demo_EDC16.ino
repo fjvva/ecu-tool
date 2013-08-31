@@ -1,5 +1,5 @@
 /*
-EDC16 Demo code, made by Javier Vazquez (Bi0H4z4rD)
+EDC16 Demo code, made by Javier Vazquez (Bi0H4z4rD).
 It can read/write flash on these ECUS and read their info.
 Supports EDC16U31/34
 
