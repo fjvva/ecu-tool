@@ -1,1 +1,3 @@
 SDFAT ---- http://code.google.com/p/sdfatlib/
+
+All other libraries can be downloaded from the "Arduino libraries" folder
