@@ -1,6 +1,10 @@
 ecu-tool
 ========
 
+****IMPORTANT UPDATE****: New revision of the hardware has been uploaded (V2). The initial revision (V1) can easily be upgraded to V2 by just adding one IC. Check it out, as future FW revisions will be available only for the V2 hardware!
+
+
+
 Tool to communicate with vehicle ECUs based on Arduino
 
 Github repo for the tool presented at Blackhat Arsenal USA and Defcon 21 in Las Vegas on 2013 on the talk "Dude, WTF in my car!"
@@ -10,6 +14,8 @@ Github repo for the tool presented at Blackhat Arsenal USA and Defcon 21 in Las 
 You will probably want to take a look at [the wiki](https://github.com/fjvva/ecu-tool/wiki).
 
 
+
+The KLINE library to be used with the ECU tool to create custom apps is now live!
 
 
 
