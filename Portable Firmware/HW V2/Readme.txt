@@ -1,0 +1,1 @@
+These firmware versions require the V2 of the ECU tool Hardware. They won't work on the V1 revision!!!
