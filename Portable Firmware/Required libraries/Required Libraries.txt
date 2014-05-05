@@ -1,3 +1,5 @@
 SDFAT ---- http://code.google.com/p/sdfatlib/
 
 All other libraries can be downloaded from the "Required libraries" folder
+
+The  Liquid Crystal library has the "line skip" bug fixed, so feel free to use print without fear of skipping lines.
