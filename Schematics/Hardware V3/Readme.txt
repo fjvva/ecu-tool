@@ -29,6 +29,9 @@ Resistors are 1/8W, but 1/4W can be used too:
 -1x510 ohm
 -1x120 ohm
 -1x1k ohm
+-1x47uf 16v capacitor
+-1x220uf 16v capacitor
+IC3- 1x74HC32D
 
 For Buttons PCB:
 
